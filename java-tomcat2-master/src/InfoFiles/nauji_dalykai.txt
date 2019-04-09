@@ -1,0 +1,28 @@
+Prisijungimai prie sistemų (serverio)
+session (vaikšto su cookies)
+
+token
+    login metu serveris sukuria token
+    kreipiamė ir grąžina raktą (token)
+    kuris būna trumpalaikis (tarkim jis turi galiojimo aiką 15 min), jį reikia pastoviai refreshinti
+    jis nesirtas apsaugotii informacija
+    jis kirtas kad duomenys front ende nebūtų pakeisti
+    jis sugeneruojama sseveryje (panašiai kaip slaptažodį)
+
+    dažniausiai būna trys žingsniai
+    1 login
+        pvz:
+        {
+            "data": "2019-02-02",
+            "id": 1200,
+            "roles": "admin, user, user2"
+            "scret": "aenfkjav61grt6hr65s1d5ff4656r565vd6v565fe"
+        }
+        secret generuojama iš json duomenų
+    2 list
+    3 refresh
+
+
+
+
+

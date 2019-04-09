@@ -1,0 +1,88 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection).
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+
+# API Invoice
+
+# + GET = get
+GET http://localhost:8080/paleidimas/api/invoice/1/f
+Accept: application/json
+Accept-Encoding: UTF-8
+
+###
+
+# + GET = getPage
+GET http://localhost:8080/paleidimas/api/invoice/list?size=2&skip=1
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidXNlciIsInVzZXJOYW1lIjoidXNlckBnbWFpbC5jb20iLCJ1c2VySWQiOjIsImV4cCI6MTU1NDY0NjQ4OX0.ll8UTA1I5FViSFV23JvzCpDEjIU76GmqxpXBZm1laXQ
+
+###
+
+# gauti list tik autentifikavus
+GET http://localhost:8080/paleidimas/api/invoice/list
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidXNlciIsInVzZXJOYW1lIjoidXNlckBnbWFpbC5jb20iLCJ1c2VySWQiOjIsImV4cCI6MTU1NDY0NjQ4OX0.ll8UTA1I5FViSFV23JvzCpDEjIU76GmqxpXBZm1laXQ
+
+###
+# gauti list tik autentifikavus
+GET http://localhost:8080/paleidimas/api/invoice/listall
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidXNlciIsInVzZXJOYW1lIjoidXNlckBnbWFpbC5jb20iLCJ1c2VySWQiOjIsImV4cCI6MTU1NDY0NjQ4OX0.ll8UTA1I5FViSFV23JvzCpDEjIU76GmqxpXBZm1laXQ
+
+###
+# DELETE
+DELETE http://localhost:8080/paleidimas/api/invoice/2
+Accept: application/json
+
+###
+
+# UPDATE
+PUT http://localhost:8080/paleidimas/api/invoice/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 1,
+  "number": "A10",
+  "date": "2019-03-01",
+  "sum": 15.98,
+  "client": null,
+  "lines": null
+}
+
+###
+
+# ADD      -------------------- stop nesukurta
+POST http://localhost:8080/paleidimas/api/invoice
+Content-Type: application/json
+Accept: application/json
+
+{
+//  "id": 4, nes autoincrement
+  "number": "A4",
+  "date": "2019-03-01",
+  "sum": 15.98,
+  "client": null,
+  "lines": null
+}
+
+###
+
+# ADD todo kol kas parodo konsolėje bet neikelia i DB
+POST http://localhost:8080/paleidimas/api/invoice/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 1,
+  "qty": 99
+}
+
+###
+
+
+

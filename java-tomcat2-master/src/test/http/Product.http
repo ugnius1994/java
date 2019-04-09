@@ -1,0 +1,63 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection).
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+GET http://localhost:8080/paleidimas/api/product/1
+Accept: application/json
+
+###
+# 401 nes nėra nurodyta Autorizacijos per token
+GET http://localhost:8080/paleidimas/api/product/list
+Accept: application/json
+
+###
+# gauna duomenis tik kai teisingas token Authorization: Bearer ...
+GET http://localhost:8080/paleidimas/api/product/list
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidXNlciIsInVzZXJOYW1lIjoidXNlckBnbWFpbC5jb20iLCJ1c2VySWQiOjIsImV4cCI6MTU1NDY0NjQ4OX0.ll8UTA1I5FViSFV23JvzCpDEjIU76GmqxpXBZm1laXQ
+
+###
+# gauna visus duomenis nes šis metodas nereikalauja autorizacijos
+GET http://localhost:8080/paleidimas/api/product/listall
+Accept: application/json
+
+###
+
+DELETE http://localhost:8080/paleidimas/api/product/5
+Accept: application/json
+
+###
+
+# atnaujinti
+PUT http://localhost:8080/paleidimas/api/product/5
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 5,
+  "name": "Testinis_5",
+  "description": "test.penktas 5",
+  "price": 1.01,
+  "image": "https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwim4sm6t6ThAhWBYlAKHbuWCDQQjRx6BAgBEAU&url=http%3A%2F%2Funcyclopedia.wikia.com%2Fwiki%2FFile%3AWindows_Flag.jpg&psig=AOvVaw2CSzJPpcteV89ntBHgIk4m&ust=1553848651546871"
+}
+
+###
+
+# POST = add
+POST http://localhost:8080/paleidimas/api/product
+Content-Type: application/json
+Accept: application/json
+
+#//{
+#//  "id": 1, nes autoincrement
+#  "name": "Windows test add",
+#  "description": "aditional",
+#  "price": 50.98,
+#  "image": "https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwim4sm6t6ThAhWBYlAKHbuWCDQQjRx6BAgBEAU&url=http%3A%2F%2Funcyclopedia.wikia.com%2Fwiki%2FFile%3AWindows_Flag.jpg&psig=AOvVaw2CSzJPpcteV89ntBHgIk4m&ust=1553848651546871"
+#}
+
+###
+

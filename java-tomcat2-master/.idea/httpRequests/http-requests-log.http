@@ -1,0 +1,491 @@
+GET http://localhost:8080/paleidimas/api/product/listall
+Accept: application/json
+
+<> 2019-04-09T011029.200.json
+
+###
+
+POST http://localhost:8080/paleidimas/api/product
+Content-Type: application/json
+Accept: application/json
+
+<> 2019-04-09T011019.500.html
+
+###
+
+GET http://localhost:8080/paleidimas/api/product/1
+Accept: application/json
+
+<> 2019-04-09T010732.404.json
+
+###
+
+POST http://localhost:8080/paleidimas/api/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "password": "-user2@gmail.com",
+  "username": "user2@gmail.com"
+}
+
+<> 2019-04-09T010722.404.json
+
+###
+
+POST http://localhost:8080/paleidimas/api/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "password": "user@gmail.com",
+  "username": "user@gmail.com"
+}
+
+<> 2019-04-09T010718.404.json
+
+###
+
+POST http://localhost:8080/paleidimas/api/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "password": "user@gmail.com",
+  "username": "user@gmail.com"
+}
+
+<> 2019-04-09T010714.404.json
+
+###
+
+POST http://localhost:8080/paleidimas/api/auth/create
+Content-Type: application/json
+Accept: application/json
+
+{
+  "role": "user",
+  "password": "user3@gmail.com",
+  "username": "user3@gmail.com"
+}
+
+<> 2019-04-09T112807.404.html
+
+###
+
+GET http://localhost:8080/paleidimas/api/product/list
+Accept: application/json
+
+<> 2019-04-09T112422.404.html
+
+###
+
+GET http://localhost:8080/paleidimas/api/product/1
+Accept: application/json
+
+<> 2019-04-09T112415.404.html
+
+###
+
+POST http://localhost:8080/paleidimas/api/invoice/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 1,
+  "qty": 99
+}
+
+<> 2019-04-08T124405.200.json
+
+###
+
+GET http://localhost:8080/paleidimas/api/invoice/1/f
+Accept: application/json
+Accept-Encoding: UTF-8
+
+<> 2019-04-08T124250.200.json
+
+###
+
+GET http://localhost:8080/paleidimas/api/invoice/1/f
+Accept: application/json
+Accept-Encoding: UTF-8
+
+<> 2019-04-08T124152.200.json
+
+###
+
+GET http://localhost:8080/paleidimas/api/invoice/1/f
+Accept: application/json
+
+<> 2019-04-08T124011.200.json
+
+###
+
+POST http://localhost:8080/paleidimas/api/invoice/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 1,
+  "qty": 99
+}
+
+###
+
+POST http://localhost:8080/paleidimas/api/invoice/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 1,
+  "qty": 99
+}
+
+<> 2019-04-08T121415.200.json
+
+###
+
+POST http://localhost:8080/paleidimas/api/invoice/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 1,
+  "qty": 99
+}
+
+###
+
+POST http://localhost:8080/paleidimas/api/invoice/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 1,
+  "qty": 99
+}
+
+<> 2019-04-08T115657.200.json
+
+###
+
+POST http://localhost:8080/paleidimas/api/invoice/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 1,
+  "qty": 99
+}
+
+<> 2019-04-08T115603.200.json
+
+###
+
+GET http://localhost:8080/paleidimas/api/invoice/1/f
+Accept: application/json
+
+<> 2019-04-08T115453.200.json
+
+###
+
+POST http://localhost:8080/paleidimas/api/invoice/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 1,
+  "qty": 99
+}
+
+<> 2019-04-08T115313.200.json
+
+###
+
+POST http://localhost:8080/paleidimas/api/invoice/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 1,
+  "qty": 99
+}
+
+<> 2019-04-08T115233.200.json
+
+###
+
+POST http://localhost:8080/paleidimas/api/invoice/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 4,
+  "qty": 99
+}
+
+<> 2019-04-08T115201.200.json
+
+###
+
+POST http://localhost:8080/paleidimas/api/invoice/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 4,
+  "qty": 99
+}
+
+<> 2019-04-08T114302.200.json
+
+###
+
+POST http://localhost:8080/paleidimas/api/invoice/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 4,
+  "qty": 99
+}
+
+<> 2019-04-08T113814.200.json
+
+###
+
+POST http://localhost:8080/paleidimas/api/invoice/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 4,
+  "qty": 99
+}
+
+<> 2019-04-08T113612.200.json
+
+###
+
+GET http://localhost:8080/paleidimas/api/invoice/1/f
+Accept: application/json
+
+<> 2019-04-08T105241.200.json
+
+###
+
+GET http://localhost:8080/paleidimas/api/invoice/1
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidXNlciIsInVzZXJOYW1lIjoidXNlckBnbWFpbC5jb20iLCJ1c2VySWQiOjIsImV4cCI6MTU1NDcxMDk2N30.vGcqCheK8QXr02oOwDNJzgK-S-Lb-vyOU7-lQDLke8I
+
+<> 2019-04-08T105103.200.json
+
+###
+
+GET http://localhost:8080/paleidimas/api/invoice/1/f
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidXNlciIsInVzZXJOYW1lIjoidXNlckBnbWFpbC5jb20iLCJ1c2VySWQiOjIsImV4cCI6MTU1NDcxMDk2N30.vGcqCheK8QXr02oOwDNJzgK-S-Lb-vyOU7-lQDLke8I
+
+###
+
+GET http://localhost:8080/paleidimas/api/invoice/1/f
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidXNlciIsInVzZXJOYW1lIjoidXNlckBnbWFpbC5jb20iLCJ1c2VySWQiOjIsImV4cCI6MTU1NDcxMDk2N30.vGcqCheK8QXr02oOwDNJzgK-S-Lb-vyOU7-lQDLke8I
+
+###
+
+GET http://localhost:8080/paleidimas/api/invoice/1/f
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidXNlciIsInVzZXJOYW1lIjoidXNlckBnbWFpbC5jb20iLCJ1c2VySWQiOjIsImV4cCI6MTU1NDcxMDk2N30.vGcqCheK8QXr02oOwDNJzgK-S-Lb-vyOU7-lQDLke8I
+
+###
+
+GET http://localhost:8080/paleidimas/api/invoice/1/f
+Accept: application/json
+
+###
+
+GET http://localhost:8080/paleidimas/api/product/list
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidXNlciIsInVzZXJOYW1lIjoidXNlckBnbWFpbC5jb20iLCJ1c2VySWQiOjIsImV4cCI6MTU1NDY0NjQ4OX0.ll8UTA1I5FViSFV23JvzCpDEjIU76GmqxpXBZm1laXQ
+
+<> 2019-04-07T051601.401.json
+
+###
+
+GET http://localhost:8080/paleidimas/api/product/list
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidXNlciIsInVzZXJOYW1lIjoidXNlckBnbWFpbC5jb20iLCJ1c2VySWQiOjIsImV4cCI6MTU1NDY0NjQ4OX0.ll8UTA1I5FViSFV23JvzCpDEjIU76GmqxpXBZm1laXQ
+
+<> 2019-04-07T051518.401.json
+
+###
+
+GET http://localhost:8080/paleidimas/api/product/list
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidXNlciIsInVzZXJOYW1lIjoidXNlckBnbWFpbC5jb20iLCJ1c2VySWQiOjIsImV4cCI6MTU1NDY0NjQ4OX0.ll8UTA1I5FViSFV23JvzCpDEjIU76GmqxpXBZm1laXQ
+
+<> 2019-04-07T051500.401.json
+
+###
+
+GET http://localhost:8080/paleidimas/api/product/listall
+Accept: application/json
+
+<> 2019-04-07T051119.500.html
+
+###
+
+GET http://localhost:8080/paleidimas/api/product/list
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidXNlciIsInVzZXJOYW1lIjoidXNlckBnbWFpbC5jb20iLCJ1c2VySWQiOjIsImV4cCI6MTU1NDY0NjQ4OX0.ll8UTA1I5FViSFV23JvzCpDEjIU76GmqxpXBZm1laXQ
+
+<> 2019-04-07T051055.500.html
+
+###
+
+GET http://localhost:8080/paleidimas/api/product/list
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidXNlciIsInVzZXJOYW1lIjoidXNlckBnbWFpbC5jb20iLCJ1c2VySWQiOjIsImV4cCI6MTU1NDYzOTA3M30._0xww9phH-UPAiJ2pfZCpR_avcKvwS1BHJ8CWSRgbQk
+
+<> 2019-04-07T051023.401.json
+
+###
+
+GET http://localhost:8080/paleidimas/api/product/list
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidXNlciIsInVzZXJOYW1lIjoidXNlckBnbWFpbC5jb20iLCJ1c2VySWQiOjIsImV4cCI6MTU1NDYzOTA3M30._0xww9phH-UPAiJ2pfZCpR_avcKvwS1BHJ8CWSRgbQk
+
+<> 2019-04-07T050948.401.json
+
+###
+
+GET http://localhost:8080/paleidimas/api/product/1
+Accept: application/json
+
+<> 2019-04-07T050939.500.html
+
+###
+
+GET http://localhost:8080/paleidimas/api/cart/1
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidXNlciIsInVzZXJOYW1lIjoidXNlckBnbWFpbC5jb20iLCJ1c2VySWQiOjIsImV4cCI6MTU1NDYzOTA3M30._0xww9phH-UPAiJ2pfZCpR_avcKvwS1BHJ8CWSRgbQk
+
+<> 2019-04-07T050416.500.html
+
+###
+
+GET http://localhost:8080/paleidimas/api/product/1
+Accept: application/json
+
+<> 2019-04-07T050401.500.html
+
+###
+
+GET http://localhost:8080/paleidimas/api/product/1
+Accept: application/json
+
+<> 2019-04-07T044933.200.json
+
+###
+
+GET http://localhost:8080/paleidimas/api/cart/1
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidXNlciIsInVzZXJOYW1lIjoidXNlckBnbWFpbC5jb20iLCJ1c2VySWQiOjIsImV4cCI6MTU1NDYzOTA3M30._0xww9phH-UPAiJ2pfZCpR_avcKvwS1BHJ8CWSRgbQk
+
+<> 2019-04-07T044100.200.json
+
+###
+
+GET http://localhost:8080/paleidimas/api/cart/listall
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidXNlciIsInVzZXJOYW1lIjoidXNlckBnbWFpbC5jb20iLCJ1c2VySWQiOjIsImV4cCI6MTU1NDY0NjQ4OX0.ll8UTA1I5FViSFV23JvzCpDEjIU76GmqxpXBZm1laXQ
+
+<> 2019-04-07T043323.200.json
+
+###
+
+POST http://localhost:8080/paleidimas/api/cart
+Content-Type: application/json
+Accept: application/json
+
+{
+  "userId": 2,
+  "qty": 1,
+  "product":
+    {
+      "id": 1,
+      "name": "Testinis_5",
+      "description": "test.penktas 5",
+      "price": 1.01,
+      "image": "https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwim4sm6t6ThAhWBYlAKHbuWCDQQjRx6BAgBEAU&url=http%3A%2F%2Funcyclopedia.wikia.com%2Fwiki%2FFile%3AWindows_Flag.jpg&psig=AOvVaw2CSzJPpcteV89ntBHgIk4m&ust=1553848651546871"
+    }
+}
+
+<> 2019-04-07T043317.200.json
+
+###
+
+GET http://localhost:8080/paleidimas/api/cart/listall
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidXNlciIsInVzZXJOYW1lIjoidXNlckBnbWFpbC5jb20iLCJ1c2VySWQiOjIsImV4cCI6MTU1NDY0NjQ4OX0.ll8UTA1I5FViSFV23JvzCpDEjIU76GmqxpXBZm1laXQ
+
+<> 2019-04-07T043248.200.json
+
+###
+
+PUT http://localhost:8080/paleidimas/api/cart/4
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 4,
+  "userId": 2,
+  "product": 4,
+  "qty": 2
+}
+
+<> 2019-04-07T043243.200.json
+
+###
+
+PUT http://localhost:8080/paleidimas/api/cart/4
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 1,
+  "userId": 2,
+  "product": 4,
+  "qty": 2
+}
+
+<> 2019-04-07T043232.200.json
+
+###
+
+GET http://localhost:8080/paleidimas/api/cart/listall
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidXNlciIsInVzZXJOYW1lIjoidXNlckBnbWFpbC5jb20iLCJ1c2VySWQiOjIsImV4cCI6MTU1NDY0NjQ4OX0.ll8UTA1I5FViSFV23JvzCpDEjIU76GmqxpXBZm1laXQ
+
+<> 2019-04-07T043216.200.json
+
+###
+
+PUT http://localhost:8080/paleidimas/api/cart/4
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 1,
+  "userId": 2,
+  "product": 4,
+  "qty": 2
+}
+
+<> 2019-04-07T043144.200.json
+
+###
+

@@ -1,0 +1,51 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection).
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+POST http://localhost:8080/belekas/api/auth/create
+Accept: application/json
+Content-Type: application/json
+
+{"username":"beleka",
+"password":"beleka",
+  "role":"admin"
+}
+###
+
+GET http://localhost:8080/belekas/api/auth/genkey/256
+Accept: application/json
+Content-Type: application/json
+
+{"username":"tau@gmail.com",
+"password":"belekas"
+}
+
+###
+POST http://localhost:8080/belekas/api/auth/logout
+Accept: application/json
+Content-Type: application/json
+
+{"username":"kukutis@gmail.com",
+  "password":"slaptas"
+}
+
+###
+POST http://localhost:8080/belekas/api/auth/login
+Accept: application/json
+Content-Type: application/json
+
+{"username":"beleka",
+"password":"beleka",
+  "role":"admin"
+}
+
+
+###
+GET http://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline
+ccept: application/json
+Content-Type: application/json
+
+###

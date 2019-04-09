@@ -1,0 +1,149 @@
+[
+  {
+    "id": 1,
+    "name": "Windows_10",
+    "description": "pirmas",
+    "price": 50.98,
+    "image": "https://image.flaticon.com/icons/svg/183/183324.svg"
+  },
+  {
+    "id": 2,
+    "name": "Office_10",
+    "description": "antras",
+    "price": 30.98,
+    "image": "https://image.flaticon.com/icons/svg/148/148963.svg"
+  },
+  {
+    "id": 3,
+    "name": "Excel_4",
+    "description": "ketvirtas",
+    "price": 100.98,
+    "image": "https://image.flaticon.com/icons/svg/265/265707.svg"
+  },
+  {
+    "id": 4,
+    "name": "Excel_5",
+    "description": "penktas",
+    "price": 90.98,
+    "image": "http://www.qweas.com/reviews/images2/excel.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Excel_6",
+    "description": "sestas",
+    "price": 90.98,
+    "image": "https://image.flaticon.com/icons/svg/183/183330.svg"
+  },
+  {
+    "id": 6,
+    "name": "Excel_7",
+    "description": "tekstas labai ilgas",
+    "price": 90.98,
+    "image": "https://image.flaticon.com/icons/svg/1/1395.svg"
+  },
+  {
+    "id": 7,
+    "name": "Excel_8",
+    "description": "tekstas labai ilgas",
+    "price": 90.98,
+    "image": "https://image.flaticon.com/icons/svg/183/183326.svg"
+  },
+  {
+    "id": 8,
+    "name": "Excel_9",
+    "description": "tekstas labai ilgas",
+    "price": 90.98,
+    "image": "https://image.flaticon.com/icons/svg/183/183327.svg"
+  },
+  {
+    "id": 9,
+    "name": "Excel_10",
+    "description": "tekstas labai ilgas",
+    "price": 0.10,
+    "image": "https://image.flaticon.com/icons/svg/183/183328.svg"
+  },
+  {
+    "id": 10,
+    "name": "Excel_11",
+    "description": "tekstas labai ilgas",
+    "price": 0.11,
+    "image": "https://image.flaticon.com/icons/svg/183/183329.svg"
+  },
+  {
+    "id": 11,
+    "name": "Excel_12",
+    "description": "tekstas labai ilgas",
+    "price": 0.12,
+    "image": "https://image.flaticon.com/icons/svg/183/183331.svg"
+  },
+  {
+    "id": 12,
+    "name": "Excel_13",
+    "description": "tekstas labai ilgas",
+    "price": 0.13,
+    "image": "https://image.flaticon.com/icons/svg/183/183332.svg"
+  },
+  {
+    "id": 13,
+    "name": "Excel_14",
+    "description": "tekstas labai ilgas",
+    "price": 0.14,
+    "image": "https://image.flaticon.com/icons/svg/183/183333.svg"
+  },
+  {
+    "id": 14,
+    "name": "Excel_15",
+    "description": "tekstas labai ilgas",
+    "price": 0.15,
+    "image": "https://image.flaticon.com/icons/svg/183/183334.svg"
+  },
+  {
+    "id": 15,
+    "name": "Excel_16",
+    "description": "tekstas labai ilgas",
+    "price": 0.16,
+    "image": "https://image.flaticon.com/icons/svg/183/183335.svg"
+  },
+  {
+    "id": 16,
+    "name": "Excel_17",
+    "description": "tekstas labai ilgas",
+    "price": 0.17,
+    "image": "https://image.flaticon.com/icons/svg/183/183336.svg"
+  },
+  {
+    "id": 17,
+    "name": "Excel_18",
+    "description": "tekstas labai ilgas",
+    "price": 0.18,
+    "image": "https://image.flaticon.com/icons/svg/183/183337.svg"
+  },
+  {
+    "id": 18,
+    "name": "Excel_19",
+    "description": "tekstas labai ilgas",
+    "price": 0.19,
+    "image": "https://image.flaticon.com/icons/svg/183/183338.svg"
+  },
+  {
+    "id": 19,
+    "name": "Excel_20",
+    "description": "tekstas labai ilgas",
+    "price": 0.20,
+    "image": "https://image.flaticon.com/icons/svg/1/1397.svg"
+  },
+  {
+    "id": 20,
+    "name": "Excel_21",
+    "description": "tekstas labai ilgas",
+    "price": 0.21,
+    "image": "https://image.flaticon.com/icons/svg/1/1398.svg"
+  },
+  {
+    "id": 21,
+    "name": "Excel_22",
+    "description": "tekstas labai ilgas",
+    "price": 0.22,
+    "image": "https://image.flaticon.com/icons/svg/1/1399.svg"
+  }
+]

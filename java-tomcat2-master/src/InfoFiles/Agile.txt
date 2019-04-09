@@ -1,0 +1,55 @@
+Penktadienio paskaita su Lietuvos draudimu
+2019-03-29
+
+Scrum:
+remiasi 5 metodais:
+
+1
+Respect - gerbamas vians kito sprandimas
+
+2
+sprintas
+
+3
+Focus
+    dirbi ties vienu sprino suplanuotu metu
+
+4
+Commitment
+
+    transpirensy - skaidrumas atvirumas
+    inspextion stebėti kitus, kitų darbus, taipgali
+    expecteition -
+
+5
+Ocurage
+
+Scrum Team Owerview (trys rolės)
+
+    Product Owner (PO)
+        priima galutinį spendimą
+
+    Scrum Master
+        užtikrina kad komanda dirbtų pagal scrum medodus,
+        palaiko komandą,
+        užtikrina sklandų bendradarbiavimą
+        prižiūri nukrypimus nuo sprinto planų
+
+    Developemt Tiem
+        komanda kurianti didelę pridėtinę vertę
+
+Scrum Framework
+    Sprinto planavimas
+        jo metu įdeda į sprinto darbus (back log)
+    sprinto kasdieniai daily stend up
+        kiekvienas pasisako ką nuveikę, ką planuoja veikti
+
+    Repayment
+    Sprint review demo
+        komanda parodo ką padarė
+    Sprint retro
+        susirenka visi (trys rolės) ir aptaria rezultatus
+
+
+
+

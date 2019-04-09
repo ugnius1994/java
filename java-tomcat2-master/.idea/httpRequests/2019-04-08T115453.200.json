@@ -1,0 +1,68 @@
+{
+  "id": 1,
+  "number": "A1",
+  "date": "2019-03-01",
+  "sum": 15.98,
+  "lines": [
+    {
+      "id": 1,
+      "qty": 2,
+      "price": 100.05,
+      "product": {
+        "id": 1,
+        "name": "Windows_10",
+        "description": "pirmas",
+        "price": 50.98,
+        "image": "https://image.flaticon.com/icons/svg/183/183324.svg"
+      }
+    },
+    {
+      "id": 2,
+      "qty": 2,
+      "price": 300.98,
+      "product": {
+        "id": 3,
+        "name": "Excel_3",
+        "description": "treÄ¨ias",
+        "price": 110.98,
+        "image": "https://image.flaticon.com/icons/svg/1/1396.svg"
+      }
+    },
+    {
+      "id": 7,
+      "qty": 99,
+      "price": 100.98,
+      "product": {
+        "id": 4,
+        "name": "Excel_4",
+        "description": "ketvirtas",
+        "price": 100.98,
+        "image": "https://image.flaticon.com/icons/svg/265/265707.svg"
+      }
+    },
+    {
+      "id": 8,
+      "qty": 99,
+      "price": 50.98,
+      "product": {
+        "id": 1,
+        "name": "Windows_10",
+        "description": "pirmas",
+        "price": 50.98,
+        "image": "https://image.flaticon.com/icons/svg/183/183324.svg"
+      }
+    },
+    {
+      "id": 9,
+      "qty": 99,
+      "price": 50.98,
+      "product": {
+        "id": 1,
+        "name": "Windows_10",
+        "description": "pirmas",
+        "price": 50.98,
+        "image": "https://image.flaticon.com/icons/svg/183/183324.svg"
+      }
+    }
+  ]
+}

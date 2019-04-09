@@ -1,0 +1,25 @@
+Error code
+
+    1×× Informational
+    100 Continue
+    101 Switching Protocols
+    102 Processing
+
+    2×× Success
+200 OK
+
+    4×× Client Error
+400 Bad Request
+401 Unauthorized (neprisijungta login)
+    402 Payment Required
+    403 Forbidden
+404 Not Found (nerasta)
+
+    5×× Server Error
+500 Internal Server Error
+
+
+
+
+
+

@@ -1,0 +1,71 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection).
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+# API Invoice
+
+# ADD
+POST http://localhost:8080/paleidimas/api/cart
+Content-Type: application/json
+Accept: application/json
+
+{
+//  "id": 2,
+  "userId": 2,
+  "qty": 1,
+  "product":
+    {
+      "id": 1,
+      "name": "Testinis_5",
+      "description": "test.penktas 5",
+      "price": 1.01,
+      "image": "https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwim4sm6t6ThAhWBYlAKHbuWCDQQjRx6BAgBEAU&url=http%3A%2F%2Funcyclopedia.wikia.com%2Fwiki%2FFile%3AWindows_Flag.jpg&psig=AOvVaw2CSzJPpcteV89ntBHgIk4m&ust=1553848651546871"
+    }
+}
+
+###
+
+# UPDATE
+PUT http://localhost:8080/paleidimas/api/cart/4
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 4,
+  "userId": 2,
+  "product": 4,
+  "qty": 2
+}
+
+###
+
+GET http://localhost:8080/paleidimas/api/cart/1
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidXNlciIsInVzZXJOYW1lIjoidXNlckBnbWFpbC5jb20iLCJ1c2VySWQiOjIsImV4cCI6MTU1NDYzOTA3M30._0xww9phH-UPAiJ2pfZCpR_avcKvwS1BHJ8CWSRgbQk
+
+###
+
+GET http://localhost:8080/paleidimas/api/cart/list?skip=1&size=2
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidXNlciIsInVzZXJOYW1lIjoidXNlckBnbWFpbC5jb20iLCJ1c2VySWQiOjIsImV4cCI6MTU1NDY0NjQ4OX0.ll8UTA1I5FViSFV23JvzCpDEjIU76GmqxpXBZm1laXQ
+
+###
+
+GET http://localhost:8080/paleidimas/api/cart/listall
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidXNlciIsInVzZXJOYW1lIjoidXNlckBnbWFpbC5jb20iLCJ1c2VySWQiOjIsImV4cCI6MTU1NDY0NjQ4OX0.ll8UTA1I5FViSFV23JvzCpDEjIU76GmqxpXBZm1laXQ
+
+###
+
+DELETE http://localhost:8080/paleidimas/api/cart/3
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidXNlciIsInVzZXJOYW1lIjoidXNlckBnbWFpbC5jb20iLCJ1c2VySWQiOjIsImV4cCI6MTU1NDY0NjQ4OX0.ll8UTA1I5FViSFV23JvzCpDEjIU76GmqxpXBZm1laXQ
+
+###
+
+
+
+

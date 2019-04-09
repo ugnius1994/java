@@ -1,0 +1,68 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection).
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+
+# API Invoice
+
+#    @POST = add   CEATE NEW ACCOUNT
+POST http://localhost:8080/paleidimas/api/auth/create
+Content-Type: application/json
+Accept: application/json
+
+{
+  "role": "user",
+  "password": "user3@gmail.com",
+  "username": "user3@gmail.com"
+}
+
+###
+
+# LOGIN code:200
+POST http://localhost:8080/paleidimas/api/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "password": "user@gmail.com",
+  "username": "user@gmail.com"
+}
+###
+# LOGIN code:401
+POST http://localhost:8080/paleidimas/api/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "password": "-user2@gmail.com",
+  "username": "user2@gmail.com"
+}
+###
+# LOGIN code:401
+POST http://localhost:8080/paleidimas/api/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "password": "user2@gmail.com",
+  "username": "-user2@gmail.com"
+}
+###
+
+
+# LOGOUT code:200
+POST http://localhost:8080/paleidimas/api/auth/logout
+Content-Type: application/json
+Accept: application/json
+###
+
+# GENKEY/256
+GET http://localhost:8080/paleidimas/api/auth/genkey/256
+Content-Type: application/json
+Accept: application/json
+
+###
+

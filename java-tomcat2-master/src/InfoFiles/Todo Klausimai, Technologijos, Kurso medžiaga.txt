@@ -1,0 +1,105 @@
+TODO Ką dr norėčiau sužinoti šio kurso metu
+    Spring Core (MVC, XML configuration, DI) Framework/Hibernate
+    Multithreading
+    JavaBean
+    Android
+    Documentation
+    Maven
+    Design pattern’AI
+    Docker
+    Jira
+    Kotlin / Groovy
+    Jenkins, basic understanding of the CI process
+    ? radau skelbimuose
+        JBoss/SpringBoot/SpringCloud
+      ? dabar mokomės:    Micro services
+      ? dabar mokomės:    WEB services (SOAP and REST)
+        WebSphere
+        RabbitMQ/Kafka
+
+todo dr karta apie throws(metodo antraštėje) ir try-catch koks pagridinis skirtumas tarp sių užrašų
+
+
+su kokiomis technologijomis ju susipažinau kurso metu
+
+BTA (21 sav.)
+    WEB:
+        THML (Brackets)
+        CSS (Photoshop)
+        JavaScript (PhpStorm)
+        Less (Koala)
+        Wordpress (PHP, FileZilla)
+        Bootstrap
+        ---
+        XAMPP
+
+    Java OOP
+        {
+            Lambda expression
+            Stream
+            Collections
+            Regex
+            Interfaces / abstract class
+            enum
+            try-catch-finaly, throw, throws
+            Inheritance
+            todo Pattern - reikia paaiškinimo
+        }
+        GIT
+            GitHub
+            BitBucket
+            SourceTree
+
+    JAVA_2
+    {
+        Java_EE
+        JDBC { transactions, roolback, commit }
+        SQL (MySql Workbench)
+        Junit
+        Prsistence Entity(@Graph), jpa.servises.Dao (CRUD)
+        Gradle
+        Tomcat
+        JPA/Hibernate
+        REST
+        Web Services
+        Servlet / JSP
+        ---
+        Agile Scrum
+    }
+
+SAVARANKIŠKAI: (2 metai)
+    Excel
+        VBA
+
+KCS: (6 sav.)
+    WEB
+        THML, CSS, JavaScript pagrindai
+    C#
+        Pagrindai
+        {
+            variables,
+            loop,
+            methods
+        }
+    Java
+        OOP pagrindai
+        {
+            Scanner,
+            ReadWriteFiles,
+            JDBC,
+            Class,
+            Object
+        }
+        JavaFX pagrindai
+ElsisPRO: (2 mėn.)
+    priėmimo į darbą užduotis:
+    {
+        JavaFX
+        Multithreading
+    }
+    Java_EE
+    Eclipse
+    EclipseLink
+    ORACLE_DB
+    Jira
+    Word (mapping)

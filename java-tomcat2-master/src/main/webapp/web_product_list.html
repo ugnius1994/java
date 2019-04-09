@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Products</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="modal" tabindex="-1" role="dialog" id="loginModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Login</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group row">
+                        <label for="username" class="col-sm-2 col-form-label">Username</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="username" placeholder="Username" value="user@gmail.com">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="password" class="col-sm-2 col-form-label">Password</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="password" placeholder="Password" value="user@gmail.com">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="login">Login</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--   1 products  -->
+<div class="container" id="ml-products">
+
+    <div class="nav justify-content-center">
+        <h1>Programinės įrangos parduotuvė</h1>
+    </div>
+
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Sign In</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Sign Out</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link btn btn-info btn-sm" id="ml-showCart">
+                <span class="glyphicon glyphicon-shopping-cart"></span> Prekių krpšelis
+            </a>
+        </li>
+    </ul>
+
+    <!-- <<[][][]>> -->
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            <li class="page-item" id="prev">
+                <a class="page-link" href="#" aria-label="Previous">
+                    <span>&laquo;</span>
+                </a>
+            </li>
+        </ul>
+        <ul class="pagination justify-content-center" id="ml-pagination">
+            <!-- [1][2][3]... -->
+        </ul>
+        <ul class="pagination justify-content-center">
+            <li class="page-item" id="next">
+                <a class="page-link" href="#" aria-label="Next">
+                    <span>&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Kodas</th>
+            <th></th>
+            <th>Prekė</th>
+            <th>Aprašymas</th>
+            <th class="text-right">Kaina</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody id="products">
+        <!-- ... -->
+        </tbody>
+    </table>
+</div>
+
+
+<!--   2 cart  -->
+<div class="container" id="ml-cart">
+
+    <h1 class="justify-content-center">Pirkinių krepšelis</h1>
+
+    <table id="cart" class="table table-hover table-condensed">
+        <thead>
+        <tr>
+            <th style="width:50%">Prekė</th>
+            <th style="width:10%">Kaina</th>
+            <th style="width:8%">Kiekis</th>
+            <th style="width:22%" class="text-center">Suma</th>
+            <th style="width:10%"></th>
+        </tr>
+        </thead>
+
+        <tbody id="ml-products-cart">
+        <!--<tr>-->
+            <!--<td data-th="Product">-->
+                <!--<div class="row">-->
+                    <!--<div class="col-sm-2 hidden-xs"><img src="https://image.flaticon.com/icons/svg/183/183324.svg"-->
+                                                         <!--alt="..."-->
+                                                         <!--class="img-responsive"/></div>-->
+                    <!--<div class="col-sm-10">-->
+                        <!--<h4 class="nomargin">Product 1</h4>-->
+                        <!--<p>Lorem ipsum dolor sit amet.</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</td>-->
+            <!--<td data-th="Price">$1.99</td>-->
+            <!--<td data-th="Quantity">-->
+                <!--<input type="number" class="form-control text-center" value="1">-->
+            <!--</td>-->
+            <!--<td data-th="Subtotal" class="text-center">1.99</td>-->
+            <!--<td class="actions" data-th="">-->
+                <!--<button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>-->
+                <!--<button class="btn btn-danger btn-sm" id=""><i class="fa fa-trash-o"></i></button>-->
+            <!--</td>-->
+        <!--</tr>-->
+        </tbody>
+        <tfoot>
+        <tr class="visible-xs">
+            <td class="text-center"><strong>Total 1.99</strong></td>
+        </tr>
+        <tr>
+            <td><a href="#" class="btn btn-info" id="ml-showProduct">
+                <span class="glyphicon glyphicon-shopping-cart"></span>
+                Tęsti apsipirkimą</a></td>
+            <td colspan="2" class="hidden-xs"></td>
+            <td class="hidden-xs text-center"><strong>Total $1.99</strong></td>
+            <td><a href="#" class="btn btn-success btn-block">Checkout <i class="fa fa-angle-right"></i></a></td>
+        </tr>
+        </tfoot>
+    </table>
+</div>
+
+
+<!--<script src="forward.jsp"></script>-->
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        crossorigin="anonymous"></script>
+
+<script src="app.js"></script>
+
+</body>
+</html>

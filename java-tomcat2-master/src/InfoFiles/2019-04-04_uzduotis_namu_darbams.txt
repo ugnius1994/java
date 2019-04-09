@@ -1,0 +1,36 @@
+praplėsti uždavinį, padaryti elektroninės parduotuvės funkcionalumą:
+
+TODO PERRAŠYTI cARDsERVICE
+
+    1 button [krepšelis]
+        4 stulp
+        entity id
+        user id
+        prekes id
+        kiekis
+
+
+    paspaudus ant prekės - įdėti į krepšelį
+        ištrinti
+        atvaizduoti
+        paspaudžiam ant prekės - krepšelis +1 perkė
+        paspaudus ant krepšęlio mygtuko išmesti krepšelio turinį
+
+
+        apsirašyti
+            entity
+            modely
+
+            add entity
+                jei prekė yra dadėti 1 prie esamos
+                jei nėra dadėti naują
+
+
+
+
+
+
+
+
+
+

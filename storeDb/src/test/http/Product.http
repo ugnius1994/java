@@ -4,14 +4,35 @@
 # * 'gtrp' and 'gtr' create a GET request with or without query parameters;
 # * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
 # * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
-
 ###
-
-GET http://localhost:8080/laaaabas/api/product/list?size=2&?skip=1
-Accept: application/json
-###
-
-GET http://localhost:8080/laaaabas/api/product/list
+GET http://localhost:8080/belekas/api/product/1
 Accept: application/json
 
+
+
 ###
+DELETE http://localhost:8080/belekas/api/product/1
+Accept: application/json
+###
+GET http://localhost:8080/belekas/api/product/list
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiYWRtaW4iLCJ1c2VyTmFtZSI6ImJlbGVrYSIsInVzZXJJZCI6MSwiZXhwIjoxNTU0NDAwMDQxfQ.P0PufBooKsdZiEFJdtQ2HJxeT0MN5azCzhaAmiAG7Vo
+Accept: application/json
+
+###
+PUT http://localhost:8080/belekas/api/product/2
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 2,
+  "name": "Windows 2019",
+  "description": "New features of Windows Vista include an updated graphical user interface and visual style dubbed Aero",
+  "price": 2.99,
+  "image": "https://upload.wikimedia.org/wikipedia/en/a/a3/Windows_Vista.png"
+}
+###
+
+
+
+###
+

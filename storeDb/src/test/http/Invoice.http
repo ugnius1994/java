@@ -6,13 +6,15 @@
 # * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
 
 ###
-
-GET http://localhost:8080/laaaabas/api/invoice?id=3
+GET http://localhost:8080/belekas/api/invoices/1
 Accept: application/json
 
 ###
 
-DELETE http://localhost:8080/laaaabas/api/invoice/3
+POST http://localhost:8080/belekas/api/invoice/1
 Accept: application/json
+Content-Type: application/json
 
+{"id":1,"qty":111}
 ###
+

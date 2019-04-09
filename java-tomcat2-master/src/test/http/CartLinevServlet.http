@@ -1,0 +1,18 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection).
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+# API Invoice
+
+GET http://localhost:8080/paleidimas/api/json-cart-product?id=1
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidXNlciIsInVzZXJOYW1lIjoidXNlckBnbWFpbC5jb20iLCJ1c2VySWQiOjIsImV4cCI6MTU1NDYzOTA3M30._0xww9phH-UPAiJ2pfZCpR_avcKvwS1BHJ8CWSRgbQk
+###
+
+
+
+
+

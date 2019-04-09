@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Win 1.0",
+    "description": "MS Windows 1.0",
+    "price": 999.99,
+    "image": "https://storage.googleapis.com/webdesignledger.pub.network/WDL/9a62633f-3757.windows-1_0-logo.png"
+  },
+  {
+    "id": 2,
+    "name": "Win 2.0",
+    "description": "MS Windows 2.0",
+    "price": 199.99,
+    "image": "https://storage.googleapis.com/webdesignledger.pub.network/WDL/9a62633f-3757.windows-1_0-logo.png"
+  },
+  {
+    "id": 3,
+    "name": "Win 3.0",
+    "description": "MS Windows 3.0",
+    "price": 99.99,
+    "image": "https://storage.googleapis.com/webdesignledger.pub.network/WDL/015bb007-windows_3.0.png"
+  },
+  {
+    "id": 4,
+    "name": "Win 3.11",
+    "description": "MS Windows 3.11",
+    "price": 99.99,
+    "image": "https://storage.googleapis.com/webdesignledger.pub.network/WDL/e83a4107-windows_3.0__3.1x_logo.png"
+  },
+  {
+    "id": 5,
+    "name": "Win 95",
+    "description": "MS Windows 95",
+    "price": 95.99,
+    "image": "https://storage.googleapis.com/webdesignledger.pub.network/WDL/9aa75ae0-windows_95_logo_with_shadow.png"
+  },
+  {
+    "id": 6,
+    "name": "Win 98",
+    "description": "MS Windows 98",
+    "price": 98.99,
+    "image": "https://storage.googleapis.com/webdesignledger.pub.network/WDL/9ec7e15c-windows_98_logo.png"
+  },
+  {
+    "id": 7,
+    "name": "Win NT",
+    "description": "MS Windows NT",
+    "price": 299.99,
+    "image": "https://storage.googleapis.com/webdesignledger.pub.network/WDL/39d3b7d3-microsoft_windows_logo_from_1992_to_2000.png"
+  },
+  {
+    "id": 8,
+    "name": "Win 2K",
+    "description": "MS Windows 2000",
+    "price": 98.99,
+    "image": "https://storage.googleapis.com/webdesignledger.pub.network/WDL/4bc5ae44-windows_2000_stacked.png"
+  },
+  {
+    "id": 9,
+    "name": "Win ME",
+    "description": "MS Windows ME",
+    "price": 39.99,
+    "image": "https://storage.googleapis.com/webdesignledger.pub.network/WDL/83ba1bca-windows_me_stacked.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Win XP",
+    "description": "MS Windows XP",
+    "price": 29.99,
+    "image": "https://storage.googleapis.com/webdesignledger.pub.network/WDL/c1e704c3-windows_xp_print.png"
+  }
+]

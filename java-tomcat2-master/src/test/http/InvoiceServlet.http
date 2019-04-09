@@ -1,0 +1,22 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection).
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+# Servletai Invoices
+
+GET http://localhost:8080/paleidimas/api/storeservletai/InvoicesServlet?id=3
+Accept: application/json
+
+###
+
+# parodo invoicce kai autorizacija įvykdyta
+GET http://localhost:8080/paleidimas/api/storeservletai/InvoicesServlet?id=2
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoidXNlciIsInVzZXJOYW1lIjoidXNlckBnbWFpbC5jb20iLCJ1c2VySWQiOjIsImV4cCI6MTU1NDI4NjM5NH0.-i8yK4Qccex81H7-zxhaPsNhj8DNbeYVGuacxcBgJtI
+
+###
+
+
